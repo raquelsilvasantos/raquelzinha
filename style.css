@@ -31,9 +31,8 @@ nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
+
 }
-
-
 
 nav a {
     text-decoration: none;
@@ -41,15 +40,28 @@ nav a {
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 
+    font-weight: 400;
 }
-nav a: hover {
 
-text-decoration: underline;
-transform: trasnform 0.1s;
-transition:transforms 0.1s;
 }
-footer{
+
+font-weight: 400;
+}
+
+nav a: hover {
+text-decoration: underline;
+trasform:scale(0.90)
+transform: trasnform 0.1s;
+
+}
+
+footer {
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 100%;
+
     
 }
